@@ -1,6 +1,6 @@
 package com.ufcg.psoft.mercadofacil.repository;
 
-import java.util.List;
+import java.util.Collection;
 
 public interface LoteRepository<T, ID> {
 
@@ -8,7 +8,7 @@ public interface LoteRepository<T, ID> {
 
     T find(ID lote);
 
-    List<T> findAll();
+    Collection<T> findAll();
 
     T update(T lote);
 
